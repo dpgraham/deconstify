@@ -1,8 +1,6 @@
 DECONSTIFY
 ===================
 
-IN PROGRESS, WILL BE READY VERY SOON
-
 Replaces all ES6 constant variable declarations with traditional 'var' keyword variable declarations so that you can make use
 of the 'const' variable declarations without fully committing to ES6.
 
