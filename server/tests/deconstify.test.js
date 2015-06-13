@@ -1,6 +1,6 @@
 var mocha = require("mocha");
 var assert = require("assert");
-var constify = require("../deconstify");
+var deconstify = require("deconstify");
 
 describe('remove consts from JS code', function(){
     it('should change const to var', function(){
