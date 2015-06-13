@@ -1,8 +1,8 @@
 {
   "name": "deconstify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
-  "main": "server/deconstify.js",
+  "main": "./server/deconstify.js",
   "author": "github.com/dpgraham",
   "license": "MIT",
   "devDependencies": {
@@ -12,6 +12,6 @@
   "dependencies": {
     "esprima": "^2.2.0",
     "lodash": "^3.9.3",
-    "deconstify": "0.1.0"
+    "deconstify": "0.1.1"
   }
 }
