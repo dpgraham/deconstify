@@ -5,6 +5,7 @@ Replaces all ES6 constant variable declarations with traditional 'var' keyword v
 of the 'const' variable declarations without fully committing to ES6.
 
 Q: How is this beneficial?
+
 A: Two reasons
 
 1. Making use of 'const' variables allows for more robust static code analysis and thus catch more errors before runtime
@@ -23,9 +24,11 @@ A: Two reasons
     ```
 
 Q: Are there any risks?
-A: The risk is that a variable that you declared as constant in your source code will become variable at runtime
+
+A: The risk is that a variable that was declared as constant in your source code will become variable at runtime.
 
 Q: How does this work?
+
 A: It makes use of the Esprima library which parses the Abstract Syntax Tree for given Javascript code. Deconstify.js
 then scrapes out all of the constant variable declarations, gets the range where those declarations are made and then
-does a basic string replace to swap 'const' with 'var'. 
+does a basic string replace to swap 'const' with 'var'.
