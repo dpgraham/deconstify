@@ -10,7 +10,8 @@ USAGE:
     console.log(deconstify("const hello = 'world'");
     ```
 
-    OUTPUT: var hello = 'world'
+OUTPUT:
+var hello = 'world'
 
 
 Q: How is this beneficial?
