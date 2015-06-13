@@ -6,8 +6,10 @@ of the 'const' variable declarations without fully committing to ES6.
 
 USAGE:
     ```javascript
+
     var deconstify = require("deconstify");
     console.log(deconstify("const hello = 'world'");
+
     ```
 
 OUTPUT:
