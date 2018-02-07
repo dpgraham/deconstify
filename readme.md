@@ -1,6 +1,8 @@
 DECONSTIFY
 ===================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dpgraham/deconstify.svg)](https://greenkeeper.io/)
+
 Replaces all ES6 constant variable declarations with traditional 'var' keyword variable declarations so that you can make use
 of the 'const' variable declarations without fully committing to ES6.
 
